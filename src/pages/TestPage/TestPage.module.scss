@@ -1,0 +1,60 @@
+.root {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin: 0;
+  padding-bottom: 10px;
+  color: #0c3c26;
+  height: 100%;
+  margin: 0;
+}
+.main {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.answer {
+  text-align: justify;
+  color: #0c3c26;
+  padding: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #51be95;
+  border-radius: 5px;
+  margin: 10px;
+  &:hover {
+    border-color: #0c4b33;
+    cursor: pointer;
+  }
+}
+.selectedAnswer {
+  background-color: #51be95;
+}
+.buttonTest {
+  background-color: #51be95;
+  width: 90%;
+  margin: 2rem 5% 2rem 5%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  border-width: 0px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.error{
+  text-align: center;
+}
+.rightAnswer {
+  background-color: #51be95;
+}
+.wrongAnswer {
+  background-color: #be5851;
+}

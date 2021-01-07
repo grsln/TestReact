@@ -1,0 +1,36 @@
+.footer {
+  h3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0c3c26;
+  }
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+  flex-shrink: 0;
+}
+.leftstr,
+.rightstr {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  &:hover {
+    background-color: #51be95;
+    cursor: pointer;
+  }
+}
+.centerstr {
+  float: left;
+  width: 40%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  &:hover {
+    background-color: #51be95;
+    cursor: pointer;
+  }
+}

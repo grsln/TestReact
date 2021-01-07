@@ -1,0 +1,12 @@
+.body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  margin: 0;
+  padding-bottom: 10px;
+  color: #0c3c26;
+  height: 100vh;
+  margin: 0;
+}
+.main {
+  overflow: auto;
+}
