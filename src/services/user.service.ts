@@ -1,7 +1,7 @@
 import axios from 'axios';
 import authHeader from './auth-header';
 
-const API_URL = 'http://77.223.98.75:1337/api/';
+const API_URL = 'https://testapi.host/api/';
 
 class UserService {
   createUser(email:string, username:string, password:string) {

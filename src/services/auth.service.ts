@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://77.223.98.75:1337/api/";
+const API_URL = "https://testapi.host/api/";
 
 class AuthService {
   login(email: string, password: string) {
