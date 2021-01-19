@@ -1,8 +1,6 @@
 .root {
   height: 60px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background: #0c3c26;
 }
 .wrap {
@@ -10,15 +8,13 @@
   height: 60px;
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
   box-shadow: 0px 4px 16px 0px rgba(1, 28, 64, 0.2);
 }
 .menuWrap {
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: right;
+  justify-content: flex-end;
   justify-self: flex-end;
   padding-right: 5%;
   padding-left: 5%;

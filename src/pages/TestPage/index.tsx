@@ -107,6 +107,7 @@ const TestPage: React.FC = () => {
         <div className={s.root}>
           {!(testState.currentQuestion === -1) ? (
             <div className={s.main}>
+              <label className={s.label}>{testState.currentQuestion+1}/{testState.questions.length}</label>
               <Question
                 id={testState.questions[testState.currentQuestion].id}
                 question={
